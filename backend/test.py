@@ -278,7 +278,7 @@ def visualize_anomalies(dataset_path, model, test_loader, ground_truth):
 
 # Main function
 def main():
-    dataset_path = "C:\\Users\\shukl\\Documents\\Datasets\\Avenue_Dataset\\Avenue Dataset"  # Replace with your actual path
+    dataset_path = ""
     
     model = AegisVisionModel(input_dim=1, hidden_dim=hidden_dim, kernel_size=kernel_size, num_layers=num_layers).to(device)
     checkpoint = torch.load("aegis_vision_checkpoint_epoch_10.pth")

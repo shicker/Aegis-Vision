@@ -383,7 +383,7 @@ def visualize_anomalies(dataset_path, frame_info, anomaly_scores, threshold=0.8)
 # Main function
 def main():
     # Set dataset path (REPLACE THIS WITH YOUR ACTUAL PATH)
-    dataset_path = "C:\\Users\\shukl\\Documents\\Datasets\\Avenue_Dataset\\Avenue Dataset"  # <-- REPLACE THIS PATH
+    dataset_path = ""  # <-- REPLACE THIS PATH
     
     # Initialize model
     model = AegisVisionModel(input_dim=1, hidden_dim=hidden_dim, kernel_size=kernel_size, num_layers=num_layers).to(device)
