@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .video-container {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  video, canvas {
+    width: 640px;
+    height: 360px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .info {
+    margin-top: 20px;
+  }
+  
+  #anomaly-score {
+    color: #e74c3c;
+    font-weight: bold;
+  }
